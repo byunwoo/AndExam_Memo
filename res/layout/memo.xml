@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="16sp" 
+    android:text="메모 목록 - 여기에 작성된 메모의 목록이 표시됩니다."
+    />
+<Button
+	android:id="@+id/btnedit"  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="편집"
+	/>
+<Button
+	android:id="@+id/btnsetting"  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="설정"
+	/>
+<Button
+	android:id="@+id/btnquit"  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="종료"
+	/>
+</LinearLayout>

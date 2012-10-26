@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<EditText
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+    android:textSize="16sp" 
+	android:text="메모 편집 화면 - 여기서 메모를 편집합니다."
+	/>
+<Button
+	android:id="@+id/btncamera"  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="사진 촬영"
+	/>
+<Button
+	android:id="@+id/btnsetting"  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="설정"
+	/>
+</LinearLayout>
